@@ -1,0 +1,28 @@
+{
+    "Beta": {
+        "dbConfig": {
+          "http": "http",
+          "host": "localhost",
+          "port": "27017",
+          "dbName": "dreamCar",
+          "dbUser": "chen",
+          "dbPassword": "123456",
+          "options": {
+              "useNewUrlParser": true,
+              "autoIndex": false,
+              "reconnectTries": "Number.MAX_VALUE",
+              "reconnectInterval": 500,
+              "poolSize": 10,
+              "bufferMaxEntries": 0,
+              "connectTimeoutMS": 10000,
+              "socketTimeoutMS": 45000,
+              "family": 4
+          }
+        },
+        "jwtPrivateKey": "dream_car_key",
+        "credit": {
+          "initialLimit": 100,
+          "initialDays": 1
+        }
+      }
+}
